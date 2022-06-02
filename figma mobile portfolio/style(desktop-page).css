@@ -1,0 +1,132 @@
+@media (min-width: 1024px) {
+    /*header*/
+    .n-bar{
+        margin: 10px 20px;
+        padding: 5px 11px;
+       }
+   /*Page-1*/
+    .contact-btn, .description, .summary{
+        margin: 30px;
+}
+    /*page-2*/
+    .title{
+        text-align: left;
+        margin: 30px;
+    }
+    .poster-pg2-img{
+        margin-top: 60px;
+       width: 500px;
+       height: 300px;
+      }
+      /* Page-3*/
+
+      .page3-icons{
+        display: flex;
+        margin: 10px 10px;
+    }
+    .icon-pg3{
+        margin: 0px 20px;
+        padding: 0 5px;
+        border: 0.5px solid rgb(216, 210, 210);
+    }
+    /* Page-4*/
+    .page-4-box{
+      justify-content: center;
+    }
+    .experience-title{
+        text-align: left;
+        margin-left: 20px;
+      }
+      .experience-para{
+        text-align: left;
+        margin-left: 20px;
+        line-height: 150%;
+      }
+      .experience-description{
+        text-align: left;
+        margin-left: 20px;
+        line-height: 150%;
+      }
+
+      .experience-details{
+        background-color: var(--white);
+        margin: 15px 15px;
+        text-align: center;
+        padding: 40px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 100.6%;
+        box-shadow: 1px 1px 2px rgb(216, 213, 213);
+        border: none;
+      }
+      .experience-details span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 123.6%;
+        text-transform: capitalize;
+      }
+      .page-4-card-set-2{
+        margin-top: 15px;
+      }
+      /*page-5*/
+      .image-side-3-pg5{
+        display: block;
+        
+      }
+      /*page-6,7*/
+ 
+      
+
+
+
+
+      /*page-8*/
+      .pg-8-Orange-img{
+        width: 350px;
+      }
+      .client-feedback-1{
+        margin: 30px;
+      }
+      .client-feedback-2{
+        margin: 30px;
+      }
+      .first-circle{
+        background-color: var(--orange);
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        margin: 10px 10px ;
+        }
+        .middle-circle{
+        background-color: var(--dark-view-2);
+        height: 20px;
+        width: 60px;
+        border-radius: 10px;
+        margin: 10px 10px ;
+        }
+        .last-circle{
+        background-color: var(--gray);
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        margin: 10px 10px ;
+        }
+      /*page-9*/
+      .page-9-white-bg{
+        margin: 30px;
+        padding: 30px;
+      }
+
+
+      /*page-11*/
+      .div-form{
+        margin-left: -20px;
+      }
+      .g-map{
+        height: auto;
+      }
+}
+/* 
+*/

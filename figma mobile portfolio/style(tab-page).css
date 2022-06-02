@@ -1,0 +1,304 @@
+@media (min-width: 768px) {
+
+         /*Header*/
+
+    .nav-bar{
+        display: flex;
+        white-space: nowrap;
+      }
+      .n-bar{
+       margin: 10px 10px;
+       color: var(--gray);
+      }
+      a{
+        text-decoration: none;
+        
+      }
+      .menu{
+        display: none;
+      }
+      .light{
+        text-align: end;
+        margin-top: 5px;
+        margin-right: 10px;
+      }
+      .logo{
+        margin-top: 5px;
+        margin-left: 10px;
+      }
+
+            /* Page-1*/
+
+    .page-1{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 20px;
+        padding-top: 20px;
+        }
+        .contact-btn, .description, .summary{
+         margin: 20px;
+          text-align: left;
+        }
+        .poster-img{
+          right: 20px;
+          
+        }
+        .social-icon{
+          position: absolute;
+          right: 0;
+          top: 15%;
+        }
+        .section-1 div{
+          flex: 1;
+        }
+        
+
+                /* Page-2*/
+        
+        .page-2{
+              display: flex;
+          }
+        .title{
+            text-align: left;
+            margin: 20px;
+        }
+        .poster-pg2-img{
+          margin-top: 40px;
+         width: 450px;
+         height: 220px;
+        }
+
+            /* Page-3*/
+
+        .page3-icons{
+            display: flex;
+            margin: 30px 10px;
+        }
+        .icon-pg3{
+            margin: 10px 10px;
+            padding: 10px 5px;
+            border: 0.5px solid rgb(216, 210, 210);
+        }
+          /* Page-4*/
+          .page-4-card{
+            display: flex;
+          }
+        .page-4-box{
+          display: flex;
+          justify-content: center;
+        }
+        .experience-title{
+          text-align: left;
+          margin-left: 20px;
+        }
+        .experience-para{
+          text-align: left;
+          margin-left: 20px;
+          line-height: 150%;
+        }
+        .experience-description{
+          text-align: left;
+          margin-left: 20px;
+          line-height: 200%;
+        }
+
+        .experience-details{
+          background-color: var(--white);
+          margin: 15px 10px;
+          text-align: center;
+          padding: 20px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 100.6%;
+          box-shadow: 1px 1px 2px rgb(216, 213, 213);
+          border: none;
+        }
+        .experience-details span{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          line-height: 123.6%;
+          text-transform: capitalize;
+        }
+        .page-4-card-set-2{
+          margin-top: 15px;
+        }
+        /*page-5*/
+        .image-side-pg5{
+          display: block;
+        }   
+        .side-image-pg5{
+        width: 270px;
+        height: 250px;
+        }     
+        .image-side-2-pg5{
+          display: block;
+        }
+        .side-image-2-pg5{
+          width: 270px;
+          height: 250px;
+        }
+       /*page-6,7*/
+       .pg-6-nav-link{
+         justify-content: center;
+        
+       }
+       .pg-6-l1, .pg-6-l2, .pg-6-l3, .pg-6-l4{
+         margin: 0 50px;
+         font-style: normal;
+        font-weight: 500;
+        line-height: 123.6%;
+        white-space: nowrap;
+       }
+      
+      
+       .page-6-section-1{
+         display: flex;
+         justify-content: space-evenly;
+         margin: 10px;
+       }
+       .page-6-section-2{
+         display: flex;
+         justify-content: space-evenly;
+         margin: 10px;
+       }
+      /*page-8*/
+      .pg-8-Orange-img{
+        width: 300px;
+      }
+      .pg-8-div{
+        display: flex;
+        justify-content: center;
+      }
+      .client-feedback-2{
+        display: block;
+      }
+      .client-img{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        
+      }
+      .pg-8-client-img{
+        margin-top: 30px;
+        margin-left: -35px;
+        }
+        .pg-8-client-details{
+          margin-left: 35px; 
+          margin-top: -60px; 
+          color: var(--white);
+          }
+          .client-feedback-1{
+            margin: 20px;
+            width: 60%;
+          }
+          .client-feedback-2{
+            margin: 20px;
+            width: 60%;
+          }
+          .first-circle{
+            background-color: var(--orange);
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            margin: 10px 7px ;
+            }
+            .middle-circle{
+            background-color: var(--dark-view-2);
+            height: 20px;
+            width: 60px;
+            border-radius: 10px;
+            margin: 10px 7px ;
+            }
+            .last-circle{
+            background-color: var(--gray);
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            margin: 10px 7px ;
+            }
+         /*page-9*/
+          .page-9-div-2{
+            display: block;
+           
+          }
+          .page-9-main-div{
+            display: flex;
+            justify-content: center;
+          }
+          .page-9-white-bg{
+            margin: 20px;
+            padding: 20px;
+          }
+
+          /*page-10*/
+          .page-10-main-div{
+            display: flex;
+            justify-content: center;
+          }
+          .pg-10-bg{
+            margin: 20px;
+            padding: 20px;
+            width: 80%;
+          }
+          /*page-11*/
+          .page-11 div{
+            flex: 1;
+            width: 100%;
+          }
+          .page-11-main-div{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+          }
+          .form-div-1{
+            display: flex;
+          }
+          .form-div-2{
+            display: flex;
+          }
+          
+          .message-page{
+            margin: 0 20px;
+            margin-top: 150px;
+          }
+          .message-img{
+            width: 342px;
+            height: 220px;
+          }
+          .frame-pg-11-2{
+            text-align: center;
+            margin-right: 5 0px;
+          }
+          .frame-pg-11-3{
+            text-align: center;
+          }
+          .frame-pg-11-4{
+            text-align: end;
+          }
+
+          /*page-12*/
+         
+          .pg-12-main-div{
+            display: flex;
+         
+            padding: 20px 0;
+          }
+          .pg-12-div-2{
+            margin-top: 30px;
+            margin-right: 20px;
+          }
+          .pg-12-div-3{
+            margin-top: 30px;
+            margin-right: 20px;
+          }
+          /*footer*/
+          
+          
+
+         
+
+          
+
+}
